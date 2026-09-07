@@ -1,0 +1,21 @@
+# Maven build output
+target/
+*.class
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+
+# WildFly / local tools
+tools/
+wildfly-*.zip
