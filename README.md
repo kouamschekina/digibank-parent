@@ -80,6 +80,16 @@ Base URL: `http://localhost:8080/digibank-app/api/`
 
 ## Tests
 
+See **[TESTING.md](TESTING.md)**.
+
+Start PostgreSQL/WildFly if needed, deploy, run JUnit/Cucumber, and print live API results:
+
+```bash
+./scripts/test-all.sh
+```
+
+Maven tests only (no server):
+
 ```bash
 mvn test
 ```
